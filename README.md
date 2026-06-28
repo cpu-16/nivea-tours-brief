@@ -40,6 +40,8 @@ Una agencia que **no solo venda tours a Coiba**, sino una oferta más amplia:
 | `WhatsApp Ptt 2026-06-28 at 8.47.15 AM.ogg` | Audio original del brief. |
 | `fotos/` | Fotos de Coiba, Cebaco, animales, escaleras y tours de costa (playas/pueblos). |
 | `videos/` | Videos: playa azul, senderismo, sunset / sunset boat ride, animales, Cebaco, Coiba. |
+| `flyers/` | **Posters/flyers del cliente** → deben ir en una **sección aparte del sitio** (galería de flyers). |
+| `referencias-estilo/` | Ejemplos de estilo visual que el cliente quiere para la web (inspiración de diseño, **no** son contenido de galería). |
 
 Los nombres de archivo son descriptivos (p. ej. `tour en la costa (cimarrones y playa azul).jpeg`,
 `sunset boat ride.mp4`) y pueden usarse como pistas de contexto y para captions.
