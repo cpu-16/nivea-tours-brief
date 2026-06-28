@@ -39,7 +39,8 @@ Una agencia que **no solo venda tours a Coiba**, sino una oferta más amplia:
 | `transcripcion-audio.txt` | Transcripción con marcas de tiempo del brief de voz del cliente. |
 | `WhatsApp Ptt 2026-06-28 at 8.47.15 AM.ogg` | Audio original del brief. |
 | `fotos/` | Fotos de Coiba, Cebaco, animales, escaleras y tours de costa (playas/pueblos). |
-| `videos/` | Videos: playa azul, senderismo, sunset / sunset boat ride, animales, Cebaco, Coiba. |
+| `videos/` | Videos. **No se importan por el conector de GitHub** → ver [`videos/VIDEOS.md`](videos/VIDEOS.md) para URLs embebibles. |
+| `videos-posters/` | Frame-póster JPG de cada video (sí los importa el conector; sirven de `poster=`/fallback). |
 | `flyers/` | **Posters/flyers del cliente** → deben ir en una **sección aparte del sitio** (galería de flyers). |
 | `referencias-estilo/` | Ejemplos de estilo visual que el cliente quiere para la web (inspiración de diseño, **no** son contenido de galería). |
 
