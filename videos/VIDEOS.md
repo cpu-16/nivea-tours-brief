@@ -1,40 +1,36 @@
 # Videos — cómo usarlos en la web
 
-> **El conector de GitHub no importa binarios de video, solo imágenes/texto.**
-> No hace falta importarlos: el repo es **público**, así que la web los **embebe por URL**
-> desde el CDN **jsDelivr** (sirve `video/mp4` con soporte de rango → autoplay y seek funcionan).
-> Para que la IA igual "vea" cada video, en `videos-posters/` hay un **frame-póster JPG** de cada uno
-> (esos sí los importa el conector y sirven de `poster=` / fallback del autoplay).
+> Videos **HD 1080p** sacados de los **originales de iPhone (4K)** y optimizados para web
+> (H.264, 30fps, faststart, 4–11 MB c/u). **El conector de GitHub no importa binarios de video**,
+> pero no hace falta: el repo es público y la web los **embebe por URL** desde el CDN **jsDelivr**
+> (sirve `video/mp4` con rango → autoplay y seek). En `videos-posters/` hay un frame-póster JPG de
+> cada uno (esos sí los importa el conector; úsalos como `poster=` / fallback).
 
-## URLs listas para `<video src>`
+⭐ = ideales para la portada (video de fondo autoplay + carrusel encima).
 
-⭐ = ideales para la portada (según el brief: video de fondo en autoplay + carrusel encima).
-
-| Archivo | URL embebible (jsDelivr) | Póster (imagen) |
-|---------|--------------------------|-----------------|
-| `animales.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/animales.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/animales.mp4) | `videos-posters/animales.jpg` |
-| `animales2.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/animales2.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/animales2.mp4) | `videos-posters/animales2.jpg` |
-| `animales3.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/animales3.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/animales3.mp4) | `videos-posters/animales3.jpg` |
-| `cebaco.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/cebaco.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/cebaco.mp4) | `videos-posters/cebaco.jpg` |
-| `cebaco2.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/cebaco2.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/cebaco2.mp4) | `videos-posters/cebaco2.jpg` |
-| `coiba.mp4` ⭐ | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/coiba.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/coiba.mp4) | `videos-posters/coiba.jpg` |
-| `coiba2.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/coiba2.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/coiba2.mp4) | `videos-posters/coiba2.jpg` |
-| `playa azul.mp4` ⭐ | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/playa%20azul.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/playa%20azul.mp4) | `videos-posters/playa azul.jpg` |
-| `senderismo.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/senderismo.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/senderismo.mp4) | `videos-posters/senderismo.jpg` |
-| `sunset boat ride.mp4` ⭐ | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset%20boat%20ride.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset%20boat%20ride.mp4) | `videos-posters/sunset boat ride.jpg` |
-| `sunset.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset.mp4) | `videos-posters/sunset.jpg` |
-| `sunset2.mp4` | [https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset2.mp4](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset2.mp4) | `videos-posters/sunset2.jpg` |
+| Archivo | Contenido | URL embebible (jsDelivr) | Póster |
+|---------|-----------|--------------------------|--------|
+| `sunset-boat-ride.mp4` ⭐ | Atardecer desde el bote, mar abierto | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset-boat-ride.mp4) | `videos-posters/sunset-boat-ride.jpg` |
+| `coiba-playa-isla.mp4` ⭐ | Playa de isla con agua turquesa y palmeras | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/coiba-playa-isla.mp4) | `videos-posters/coiba-playa-isla.jpg` |
+| `agua-cristalina.mp4` ⭐ | Agua cristalina turquesa (snorkel/playa) | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/agua-cristalina.mp4) | `videos-posters/agua-cristalina.jpg` |
+| `sunset-boat-ride-2.mp4` | Atardecer desde el bote (toma alterna) | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset-boat-ride-2.mp4) | `videos-posters/sunset-boat-ride-2.jpg` |
+| `coiba-playa-bote.mp4` | Playa de isla con bote, agua cristalina | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/coiba-playa-bote.mp4) | `videos-posters/coiba-playa-bote.jpg` |
+| `mirador-isla.mp4` | Vista de islote desde altura (mirador/senderismo) | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/mirador-isla.mp4) | `videos-posters/mirador-isla.jpg` |
+| `paseo-en-bote.mp4` | Paseo en bote acercandose a un islote | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/paseo-en-bote.mp4) | `videos-posters/paseo-en-bote.jpg` |
+| `fauna-monos.mp4` | Monos cariblancos en el bosque (fauna) | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/fauna-monos.mp4) | `videos-posters/fauna-monos.jpg` |
+| `snorkel-arrecife.mp4` | Arrecife de coral con peces tropicales (snorkel) | [link](https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/snorkel-arrecife.mp4) | `videos-posters/snorkel-arrecife.jpg` |
 
 ## Cómo embeberlos
 
 ```html
-<!-- Portada: video de fondo autoplay silenciado, con poster como fallback -->
+<!-- Portada: video de fondo autoplay silenciado, con poster de fallback -->
 <video autoplay muted loop playsinline
-       poster="videos-posters/sunset boat ride.jpg"
-       src="https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset%20boat%20ride.mp4">
+       poster="videos-posters/sunset-boat-ride.jpg"
+       src="https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/sunset-boat-ride.mp4">
 </video>
 ```
 
-- **Portada:** uno de los ⭐ como fondo (`autoplay muted loop playsinline`) + carrusel de imágenes encima.
+- **Portada:** uno de los ⭐ de fondo (`autoplay muted loop playsinline`) + carrusel de imágenes encima.
 - **Sección de video dedicada:** el resto con `controls`, usando su `videos-posters/*.jpg` como `poster`.
-- Si jsDelivr tarda en propagar un archivo nuevo, fallback: `https://github.com/cpu-16/nivea-tours-brief/raw/master/videos/<archivo>`.
+- Patrón de URL: `https://cdn.jsdelivr.net/gh/cpu-16/nivea-tours-brief@master/videos/<archivo>`.
+- Fallback si jsDelivr tarda en propagar un archivo nuevo: `https://github.com/cpu-16/nivea-tours-brief/raw/master/videos/<archivo>`.
