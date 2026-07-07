@@ -1,4 +1,4 @@
-# NIVEA — Brief y material para web de agencia de tours náuticos
+# Mission South Pacific — Brief y material para web de agencia de tours náuticos
 
 Material de referencia para construir el sitio web de una **agencia de tours náuticos**
 en la zona de **Santa Catalina / Coiba (Panamá)**. Este repo reúne el brief del cliente
